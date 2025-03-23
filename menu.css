@@ -1,0 +1,103 @@
+/************************************************************/
+/*parametre generaux*/
+    .menu {
+        display: inline-flex;
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        /* border: 1px solid black; */
+        justify-content: center;
+    }
+
+    .lienmenu {
+        display: inline-flex;
+        /* background-color: fuchsia; */
+    }
+
+    .lienmenu a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+
+/************************************************************/
+/*pour telephone (jusqu'à 375px)*/
+    @media screen and (max-width: 375px) {
+        .lienmenu {
+            height: 22px;
+            visibility: hidden;
+            display: inline;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 8px;
+        }
+        a, .input {
+            font-size: 1em;
+        }
+    }
+
+
+/************************************************************/
+/*pour tablette (entre 375px et 768px)*/
+    @media screen and (min-width:375px) and (max-width: 768px) {
+        .lienmenu {
+            height: 22px;
+            display: inline;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 8px;
+        }
+        a {
+            font-size: 1em;
+        }
+    }
+
+
+/************************************************************/
+/*pour laptop - (entre 768px et 1024px)*/
+    @media screen and (min-width:768px) and (max-width: 1024px) {
+        .lienmenu {
+            height: 35px;
+            display: inline;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 15px;
+        }
+        a {
+            font-size: 1em;
+        }
+    }
+
+
+/************************************************************/
+/*pour laptop large - (entre 1024px et 1440px)*/
+    @media screen and (min-width:1024px) and (max-width: 1440px) {
+        .lienmenu {
+            height: 35px;
+            display: inline;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 15px;
+        }
+        a {
+            font-size: 1em;
+        }
+    }
+
+
+/************************************************************/
+/*pour geant ordi - (sup à 1440px)*/
+    @media screen and (min-width: 1440px) {
+        .lienmenu {
+            height: 60px;
+            display: inline;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 20px;
+        }
+        a {
+            font-size: 2em;
+        }
+    }
+

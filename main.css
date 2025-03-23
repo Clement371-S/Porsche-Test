@@ -1,0 +1,13 @@
+main {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+/************************************************************/
+/*pour tablette (entre 375px et 768px)*/
+@media screen and (min-width:375px) and (max-width: 768px) {
+    main {
+        grid-template-rows: 1fr 1000px;
+    }
+
+}
