@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: Arial;
+
+}
+
+a input {
+    cursor: pointer;
+}
+
